@@ -63,7 +63,7 @@
         zeroKey.tag = DOKeyboardKeyTypeAdd;
         frame = (DOKKeyFrame){3, 1, 1, 1};
         [keyFrames addObject:[NSValue value:&frame withObjCType:@encode(DOKKeyFrame)]];
-        UIButton *deleteKey = createKeyWithImage([UIImage imageNamed:@"delete.png"]);
+        UIButton *deleteKey = createKeyWithText(@"⌫");
         deleteKey.tag = DOKeyboardKeytypeDelete;
         frame = (DOKKeyFrame){3, 2, 1, 1};
         [keyFrames addObject:[NSValue value:&frame withObjCType:@encode(DOKKeyFrame)]];

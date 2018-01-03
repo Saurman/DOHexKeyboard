@@ -45,7 +45,7 @@
                     key = createKeyWithText(@"clear");
                     key.tag = DOKeyboardKeyTypeClear;
                 } else if ([keyName isEqualToString:@"*"]) {
-                    key = createKeyWithImage([UIImage imageNamed:@"delete.png"]);
+                    key = createKeyWithText(@"⌫"); 
                     key.tag = DOKeyboardKeytypeDelete;
                 } else if ([keyName isEqualToString:@"return"]) {
                     key = createKeyWithText(@"return");
